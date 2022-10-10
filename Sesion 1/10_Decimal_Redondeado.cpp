@@ -12,7 +12,7 @@ int main(){
     decimal = decimal*exponente;
     decimal = round(decimal);
     decimal = decimal/exponente;
-
+    
     cout << decimal << endl;
     
     return 0;
