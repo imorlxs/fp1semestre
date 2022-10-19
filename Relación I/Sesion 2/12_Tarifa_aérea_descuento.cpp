@@ -10,6 +10,7 @@ int main(){
     double descuento2 = precio*0.98;
 
     cout << descuento1 << " "  << descuento2 << endl;
+    
 
     return 0;
 }
