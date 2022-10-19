@@ -11,6 +11,5 @@ int main(){
 
     cout << descuento1 << " "  << descuento2 << endl;
 
-
     return 0;
 }
