@@ -22,7 +22,7 @@ bool Bisiesto(int year){
         return true;
 
     else if (year % 400 == 0)
-        return true;
+        return true; 
 
     else 
         return false;
@@ -30,7 +30,7 @@ bool Bisiesto(int year){
 }
 
 bool Adivine(int adivine){
-    if (adivine >= 1 && adivine <=100)
+    if (adivine >= 1 && adivine <= 100)
         return true;
     else    
         return false;
@@ -59,7 +59,7 @@ int main(){
     cin >> letra >> edad >> adivine >> anio >> velocidad >> vocal;
 
     cout << Minuscula(letra) << " " << Edad(edad) << " " << Adivine(adivine) << " " << Bisiesto(anio) << " " << Velocidad(velocidad)
-    << " " << Vocal(vocal) << endl;
+    << " " << Vocal(vocal) << endl; 
 
     return 0;
 }
