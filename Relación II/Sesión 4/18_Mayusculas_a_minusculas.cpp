@@ -9,7 +9,7 @@ minúscula o un carácter no alfabético.
 */
 enum class Tipo_letra{
     mayuscula, minuscula, no_alfabetico
-};     
+};
 
 int main()
 {
