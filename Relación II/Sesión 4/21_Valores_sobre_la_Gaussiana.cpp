@@ -29,7 +29,7 @@ int main()
     cin >> esperanza;
 
     do {
-        cout << "Introduzca el valor de la desviación" << endl;
+        cout << "Introduzca el valor de la desviación (debe ser positivo)" << endl;
         cin >> desviacion;
     } while (desviacion <= 0);
 
@@ -41,7 +41,7 @@ int main()
     } while (maximo < minimo);
 
     do {
-        cout << "Introduzca el valor de incremento \n \n";
+        cout << "Introduzca el valor de incremento (debe ser positivo) \n \n";
         cin >> incremento;
     } while (incremento <= 0);
 
