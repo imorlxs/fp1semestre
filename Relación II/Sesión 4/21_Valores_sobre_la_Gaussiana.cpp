@@ -9,6 +9,7 @@ la función en x
 #include <iostream>
 using namespace std;
 
+//Calcular el valor de la función Gaussiana con los parámetros dados.
 double FuncionGaussiana(double esperanza, double desviacion, double abscisa)
 {
     double gaussiana;
@@ -44,6 +45,7 @@ int main()
         cin >> incremento;
     } while (incremento <= 0);
 
+    //Mostrar los valores de la función Gaussiana para cada abscisa
     for (double i = minimo; i <= maximo; i += incremento) {
         cout << "En x = " << i << " el valor de la función es: " << FuncionGaussiana(esperanza, desviacion, i) << endl;
     }
