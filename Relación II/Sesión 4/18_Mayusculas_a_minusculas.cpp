@@ -49,6 +49,6 @@ int main()
         cout << "\n El carácter no era una letra \n";
     } else {
         cout << "\nEl carácter " << letra_original
-             << " una vez convertido es: " << letra_convertida << "\n";
+            << " una vez convertido es: " << letra_convertida << "\n";
     }
 }
