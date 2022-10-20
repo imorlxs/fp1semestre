@@ -7,8 +7,10 @@ using namespace std;
 Creo un tipo enumerado que representa las opciones de que un carácter sea mayúscula
 minúscula o un carácter no alfabético.
 */
-enum class Tipo_letra{
-    mayuscula, minuscula, no_alfabetico
+enum class Tipo_letra {
+    mayuscula,
+    minuscula,
+    no_alfabetico
 };
 
 int main()
@@ -33,24 +35,20 @@ int main()
     cout << "\nIntroduzca una letra  --> ";
     cin >> letra_original;
 
-
-    if ((letra_original >= 'A') && (letra_original <= 'Z')){
+    if ((letra_original >= 'A') && (letra_original <= 'Z')) {
         tipo_letra = Tipo_letra::mayuscula;
         letra_convertida = letra_original + DISTANCIA_MAY_MIN;
-    }
-    else if ((letra_original >= 'a') && (letra_original <= 'z')){
+    } else if ((letra_original >= 'a') && (letra_original <= 'z')) {
         tipo_letra = Tipo_letra::minuscula;
         letra_convertida = letra_original - DISTANCIA_MAY_MIN;
-    }
-    else {
+    } else {
         tipo_letra = Tipo_letra::no_alfabetico;
     }
 
-    if (tipo_letra == Tipo_letra::no_alfabetico){
+    if (tipo_letra == Tipo_letra::no_alfabetico) {
         cout << "\n El carácter no era una letra \n";
-    } 
-    else {
+    } else {
         cout << "\nEl carácter " << letra_original
-        << " una vez convertido es: " << letra_convertida << "\n";
+             << " una vez convertido es: " << letra_convertida << "\n";
     }
 }
