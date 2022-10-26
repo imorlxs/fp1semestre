@@ -43,4 +43,5 @@ int main()
         << car_coma << " " << cota_dcha << car_dcha << endl;
 
     // [-2.2,4.8]
+    return 0;
 }
